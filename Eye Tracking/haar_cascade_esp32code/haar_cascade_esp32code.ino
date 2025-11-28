@@ -7,8 +7,8 @@
 #include <Wire.h>
 #include <Adafruit_PWMServoDriver.h>
 
-const char* ssid = "Excitel_JAYPEEWAAALE";
-const char* password = "USA@12345678";
+const char* ssid = "........";
+const char* password = ".......";
 
 const unsigned int UDP_PORT = 4210;
 WiFiUDP Udp;
