@@ -6,8 +6,8 @@
 // =========================
 //  WiFi CONFIG
 // =========================
-const char* ssid = "moto";
-const char* password = "architjain";
+const char* ssid = "....";
+const char* password = "....";
 
 WebServer server(80);
 Adafruit_PWMServoDriver pca = Adafruit_PWMServoDriver(0x40);
