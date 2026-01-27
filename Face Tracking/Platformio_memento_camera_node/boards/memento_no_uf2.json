@@ -1,0 +1,55 @@
+{
+  "build": {
+    "core": "esp32",
+    "variant": "adafruit_camera_esp32s3",
+    "mcu": "esp32s3",
+    "arduino": {
+      "ldscript": "esp32s3_out.ld"
+    },
+
+    "bootloader": "bootloader.bin",
+    "partitions": "partitions.csv",
+
+    "extra_flags": [
+      "-DBOARD_HAS_PSRAM",
+      "-mfix-esp32-psram-cache-issue",
+      "-DARDUINO_USB_MODE=1",
+      "-DARDUINO_USB_CDC_ON_BOOT=1"
+    ],
+
+    "f_cpu": "240000000L",
+    "f_flash": "80000000L",
+    "flash_mode": "qio",
+    "flash_size": "4MB",
+
+    "psram_type": "opi",
+    "memory_type": "opi_opi",
+    "psram_size": "2MB"
+  },
+
+  "connectivity": [
+    "wifi",
+    "bluetooth"
+  ],
+
+  "debug": {
+    "openocd_board": "esp32s3-builtin.cfg"
+  },
+
+  "frameworks": [
+    "arduino"
+  ],
+
+  "name": "Adafruit MEMENTO ESP32-S3 (NO UF2, PSRAM 2MB)",
+  "url": "https://www.adafruit.com/product/5825",
+  
+  "upload": {
+    "flash_size": "4MB",
+    "maximum_size": 4194304,
+    "maximum_ram_size": 327680,
+    "speed": 921600,
+    "require_upload_port": true
+  },
+
+  "vendor": "Adafruit"
+}
