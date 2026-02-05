@@ -44,9 +44,6 @@ TTS\
 
 ## System Architecture
 
-``` mermaid
-flowchart LR
-
 Camera -->|Frames| EyeTracking[Eye Tracking (DNN / Haar)]
 EyeTracking -->|Eye position| ServoESP[ESP32 Servo Controller]
 
