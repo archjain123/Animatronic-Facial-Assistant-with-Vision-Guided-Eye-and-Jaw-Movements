@@ -1,0 +1,12 @@
+# Ignore Vosk models
+src/LLM_voice_Agent_node/models/
+
+# Ignore virtual environment
+src/LLM_voice_Agent_node/virEnv/
+virEnv/
+
+# Ignore ONNX and large ML models
+*.onnx
+*.fst
+*.mdl
+*.carpa
