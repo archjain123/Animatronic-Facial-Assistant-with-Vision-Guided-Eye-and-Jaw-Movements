@@ -1,0 +1,10 @@
+vosk
+sounddevice
+numpy
+soundfile
+scikit-learn 
+llama-cpp-python
+piper-tts
+groq
+python-dotenv
+pyserial
