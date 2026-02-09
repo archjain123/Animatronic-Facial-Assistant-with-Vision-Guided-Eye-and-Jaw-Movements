@@ -10,3 +10,33 @@ virEnv/
 *.fst
 *.mdl
 *.carpa
+# >>> universe:base
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Markdown (ignore all except README)
+*.md
+!README.md
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Build outputs
+/dist/
+/build/
+# <<< universe:base
